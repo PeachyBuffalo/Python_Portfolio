@@ -4,9 +4,11 @@ import ssl
 import smtplib
 
 
+#Requires 'App Password' from Google
 email_sender = ''
 email_password = password
 
+#use a dummy email for testing
 email_reciever = 'terey95673@notedns.com'
 
 subject = 'Test Email'
